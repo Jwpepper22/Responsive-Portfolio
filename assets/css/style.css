@@ -215,3 +215,53 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width:980px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px){
+  nav {
+    margin-right: 120px;
+    padding-bottom: 20px;
+  }
+  #logo {
+    width: 480px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  #main-container {
+    position: relative;
+
+
+  }
+
+  .auth-image {
+    width: 400px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+
+  #masthead {
+    position: absolute;
+  }
+
+  .work {
+    margin-left: 70px;
+  }
+
+  
+}
+  
